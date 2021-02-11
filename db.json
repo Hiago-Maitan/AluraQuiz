@@ -1,5 +1,5 @@
 {
-    "bg": "https://image.winudf.com/v2/image/Y29tLmRpYXpzdHVkaW8uVWx0aW1hdGVOYXJ1dG9XYWxscGFwZXJIRF9zY3JlZW5fMV8xNTE4MzE5NTU3XzAyMg/screen-1.jpg?fakeurl=1&type=.jpg",
+    "bg": "https://arquivo.devmedia.com.br/cursos/imagem/curso_388.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
@@ -31,7 +31,7 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#0d47a1",
+        "primary": "#E2E729",
         "secondary": "#29b6f6",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",

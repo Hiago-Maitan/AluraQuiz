@@ -1,9 +1,11 @@
-import styled from 'styled-components';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
+import styled from 'styled-components'
+import Head from 'next/head'
+
+import db from '../db.json'
+import Widget from '../src/components/Widget'
+import QuizBackground from '../src/components/QuizBackground'
+import Footer from '../src/components/Footer'
+import GitHubCorner from '../src/components/GitHubCorner'
 
 // const BackgroundImage = styled.div`
 // background-image: url(${db.bg});
@@ -26,20 +28,23 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>MaitanQuiz - JavaScript Básico</title>
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>Anime Naruto</h1>
+            <h1>JavaScript Quiz</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Quiz sobre os personagens do anime Naruto</p>
+            <p>Quiz sobre conceitos básicos sobre JavaScript</p>
           </Widget.Content>
         </Widget>
 
         <Widget>
           <Widget.Content>
 
-            <h1>WIDGET02</h1>
+            <h1>Quiz em desenvolvimento...</h1>
 
           </Widget.Content>
         </Widget>
